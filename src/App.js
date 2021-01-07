@@ -1,11 +1,14 @@
 import logo from './logo.svg';
 import './App.css';
+import CardMain from './CardMain';
+import Header from './Header';
 
 let example = "React January 2021 Examples"
 
 function App() {
   return (
     <div className="App">
+      <Header />
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         <p>{"this renders as a string inside of curly brackets"}</p>
@@ -19,6 +22,7 @@ function App() {
           {example}
         </a>
       </header>
+      <CardMain/>
     </div>
   );
 }

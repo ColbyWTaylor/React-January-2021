@@ -9,6 +9,7 @@ function App() {
   return (
     <div className="App">
       <Header />
+      <Header/>
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         <p>{"this renders as a string inside of curly brackets"}</p>
@@ -22,7 +23,8 @@ function App() {
           {example}
         </a>
       </header>
-      <CardMain/>
+      <CardMain productName="Product Number 1"/>
+      <CardMain productName="Producto Numero 2"/>
     </div>
   );
 }

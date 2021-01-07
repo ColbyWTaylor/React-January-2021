@@ -1,10 +1,10 @@
 import './CardMain.css';
 
 
-function CardMain() {
+function CardMain(props) {
   return (
     <div className="CardMain">
-      This is a CardMain
+      This is a {props.productName}
     </div>
   );
 }

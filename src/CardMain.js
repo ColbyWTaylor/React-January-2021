@@ -11,7 +11,9 @@ function CardMain(props) {
     <div className="CardMain">
       Name: <input onChange={e=> setFirstName(e.target.value)} />
       <p>This is a {props.productName}</p>
-      <button className="button" onClick={() => setCount(count + 1)}>Clicked {count} times.</button>
+      <button value={firstName} className="button" onClick={() => setCount(count + 1)}>Clicked {count} times.</button>
+
+      <p>Name: {firstName}</p>
     </div>
   );
 }

@@ -5,8 +5,9 @@
   top: 0;
   padding: 20px;
   border-bottom: 1px solid white;
-  max-width: 400px;
-  width: 400px;
+  max-width: 100%;
+  width: 300px;
+  float: left;
 }
 
 .CardMain:hover {

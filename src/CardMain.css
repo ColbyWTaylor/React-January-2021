@@ -5,4 +5,10 @@
   top: 0;
   height: 40px;
   padding: 20px;
+  border-bottom: 1px solid white;
+}
+
+.CardMain:hover {
+  background-color: white;
+  color: black;
 }

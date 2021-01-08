@@ -32,6 +32,8 @@ function App() {
       <Header/>
       <CardMain productName="Code Flow i/o Poster"/>
       <CardMain productName="Code Flow Meditation Podcast"/>
+      <CardMain productName="Apparel"/>
+      <CardMain productName="Health Test"/>
 
 
     </div>

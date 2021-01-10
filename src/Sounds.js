@@ -11,7 +11,7 @@ function Sounds() {
     return (
         <div>
             <p>Code:</p>
-            <input onChange={e => (e.target.value === codeWord) ? play : console.log("not the samesies")} />
+            <input onChange={(e) => e.target.value === codeWord ? play : null} />
             <button onClick={()=>setPlaySound(!playSound)}>State:</button>
             <p>{playSound.valueOf}</p>
         </div>

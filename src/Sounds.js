@@ -1,14 +1,17 @@
 import useSound from 'use-sound';
-import noise_riff from './media/colby - candy gun - this is all just a bunch of fucking noise - combined and stacked for bandcamp restrictions.mp3'
+import noise_riff from './media/electronic-screeching.mp3'
 import {useState} from 'react';
 
 function Sounds() {
     const [play] = useSound(noise_riff);
     const [playSound, setPlaySound] = useState(true);
+    
+    const codeWord = "fuzz"
 
     return (
         <div>
-            <input onChange={!playSound ? play : null} />
+            <p>Code:</p>
+            <input onChange={e => (e.target.value === codeWord) ? play : console.log("not the samesies")} />
             <button onClick={()=>setPlaySound(!playSound)}>State:</button>
             <p>{playSound.valueOf}</p>
         </div>

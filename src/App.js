@@ -1,8 +1,8 @@
-import logo from './logo.svg';
 import './App.css';
 import CardMain from './CardMain';
 import Header from './Header';
 import useSound from 'use-sound';
+import boopSfx from './media/colby - candy gun - this is all just a bunch of fucking noise - combined and stacked for bandcamp restrictions.mp3'
 
 let data = [{
   type: "developer",
@@ -25,6 +25,7 @@ function App() {
     <div className="App">
 
 <h1>CodeFlow.io</h1>
+<BoopButton/>
 
 {listOptions}
 

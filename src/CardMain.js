@@ -14,6 +14,12 @@ function CardMain(props) {
       <button value={firstName} className="button" onClick={() => setCount(count + 1)}>Clicked {count} times.</button>
 
       <p>Name: {firstName}</p>
+
+      <div>
+        <h2>
+          Something
+        </h2>
+      </div>
     </div>
   );
 }

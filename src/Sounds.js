@@ -10,7 +10,7 @@ function Sounds() {
 
     return (
         <div>
-            <p>Code:</p>
+            <p>Enter Code:</p>
             <input onChange={(e) => e.target.value === codeWord ? play : null} />
             <button onClick={()=>setPlaySound(!playSound)}>State:</button>
             <p>{playSound.valueOf}</p>

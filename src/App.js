@@ -1,6 +1,7 @@
 import './App.css';
 import CardMain from './CardMain';
 import Header from './Header';
+import Footer from './Footer';
 import Sounds from './Sounds';
 
 let data = [{
@@ -19,13 +20,14 @@ function App() {
       <Header/>
       <Sounds/>
       <listOptions />
-      <CardMain productName="Code Flow i/o Poster"/>
-      <CardMain productName="Code Flow Meditation Podcast"/>
-      <CardMain productName="Apparel"/>
-      <CardMain productName="Health Test"/>
+      <CardMain productName="Code Flow i/o Poster" productInfo="It is a poster"/>
+      <CardMain productName="Code Flow Meditation Podcast" productInfo="Limited run audio podcast episodes"/>
+      <CardMain productName="Apparel" productInfo="Look dashingly comfortable from the comfort of our clothes."/>
+      <CardMain productName="Health Test" productInfo="A checklist for keeping it 100%"/>
 
       
-      <p>Dedicated to improving the online experience for humans.</p>
+      <Footer/>
+      
       
     </div>
   );

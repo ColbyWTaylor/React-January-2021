@@ -9,16 +9,16 @@ function CardMain(props) {
   
   return (
     <div className="CardMain">
-      Name: <input onChange={e=> setFirstName(e.target.value)} />
-      <p>This is a {props.productName}</p>
+      Your Name: <input onChange={e=> setFirstName(e.target.value)} />
+      <h1>{firstName.length > 0 ? firstName + "'s" : null} {props.productName}</h1>
+      
       <button value={firstName} className="button" onClick={() => setCount(count + 1)}>{count < 1 ? "Add to cart." : count + " currently in cart."}</button>
 
-      <p>Name: {firstName}</p>
 
       <div>
-        <h2>
-          Something
-        </h2>
+        <p>
+          {props.productInfo}.
+        </p>
       </div>
     </div>
   );

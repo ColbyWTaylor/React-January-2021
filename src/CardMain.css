@@ -13,7 +13,8 @@
 }
 
 .button {
-  border: 1px solid #df557f; 
+  border: 1px solid #df557f;
+  color: #df557f;
 }
 
 .button:hover {

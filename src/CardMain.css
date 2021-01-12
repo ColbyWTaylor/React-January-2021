@@ -1,8 +1,6 @@
 .CardMain {
   background-color: black;
   color: white;
-  position: sticky;
-  top: 0;
   padding: 20px;
   border-bottom: 1px solid #df557f;
   width: 600px;

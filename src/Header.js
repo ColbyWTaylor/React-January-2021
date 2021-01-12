@@ -1,16 +1,16 @@
 import './Header.css';
-import Button from './Button';
+import HeaderButtons from './HeaderButtons'
 
 
 function Header() {
   return (
+    <>
     <div className="Header">
       <h1>Code Flow</h1>
       <p>Breathe In, Code Out</p>
-      <Button buttonName="About"/>
-      <Button buttonName="Services"/>
-      <Button buttonName="Contact"/>
     </div>
+    <HeaderButtons />
+    </>
   );
 }
 

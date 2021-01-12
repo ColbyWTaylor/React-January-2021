@@ -23,6 +23,10 @@ function App() {
       <CardMain productName="Code Flow Meditation Podcast"/>
       <CardMain productName="Apparel"/>
       <CardMain productName="Health Test"/>
+
+      
+      <p>We are dedicated to improving the human experience.</p>
+      
     </div>
   );
 }

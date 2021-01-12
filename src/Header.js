@@ -11,8 +11,6 @@ function Header() {
       <Button buttonName="About"/>
       <Button buttonName="Services"/>
       <Button buttonName="Contact"/>
-      <p>We are dedicated to improving the human experience.</p>
-      
     </div>
   );
 }

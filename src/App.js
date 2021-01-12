@@ -25,7 +25,7 @@ function App() {
       <CardMain productName="Health Test"/>
 
       
-      <p>We are dedicated to improving the human experience.</p>
+      <p>Dedicated to improving the online experience for humans.</p>
       
     </div>
   );

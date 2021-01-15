@@ -15,6 +15,11 @@ function Article(props) {
       <div className="articleContent">
         {props.articleContent}
       </div>
+      <hr />
+      <div>
+      <p>{props.articleSiblingContent}</p>
+        <p>{props.articleActions}</p>
+      </div>
 
     </div>
   );

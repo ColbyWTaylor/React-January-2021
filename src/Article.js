@@ -10,8 +10,8 @@ function Article(props) {
   return (
     <div className="Article">
       <h1>{props.articleName}</h1>
-      <p>{props.articleDate}</p>
-      <p>{props.articleAuthor}</p>
+      <p><strong>{props.articleAuthor}</strong></p>
+      <p><i>{props.articleDate}</i></p>
       <div className="articleContent">
         {props.articleContent}
       </div>

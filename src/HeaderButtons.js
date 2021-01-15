@@ -7,6 +7,7 @@ function HeaderButtons() {
       <Button buttonName="About"/>
       <Button buttonName="Services"/>
       <Button buttonName="Contact"/>
+      <Button buttonName="Articles"/>
     </div>
   );
 }

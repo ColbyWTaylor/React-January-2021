@@ -1,0 +1,23 @@
+.Article {
+  background-color: black;
+  color: white;
+  padding: 20px 0px;
+  border-bottom: 1px solid #df557f;
+  width: 600px;
+  float: left;
+}
+
+.CardMain:hover {
+  background-color:  #df557f;
+  color: black;
+}
+
+.button {
+  border: 1px solid #df557f;
+  color: #df557f;
+}
+
+.button:hover {
+  background-color: #df557f;
+  color: white;
+}

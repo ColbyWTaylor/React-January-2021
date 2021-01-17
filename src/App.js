@@ -1,7 +1,7 @@
 import './App.css';
-import CardMain from './CardMain';
-import Header from './Header';
-import Footer from './Footer';
+import CardMain from './Components/CardMain';
+import Header from './Components/Header';
+import Footer from './Components/Footer';
 import Sounds from './Sounds';
 
 let data = [{

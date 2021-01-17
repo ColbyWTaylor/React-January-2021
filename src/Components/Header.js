@@ -1,6 +1,6 @@
 import './Header.css';
-import HeaderButtons from './HeaderButtons'
-import Article from './Article'
+import HeaderButtons from '../HeaderButtons'
+import Article from '../Article'
 
 
 function Header() {

@@ -8,7 +8,7 @@ function Article(props) {
   // const [firstName, setFirstName] = useState("");
   
   return (
-    <div className="Article">
+    <div className="Article" key={props.articleName}>
       <h1>{props.articleName}</h1>
       <p><strong>{props.articleAuthor}</strong></p>
       <p><i>{props.articleDate}</i></p>
@@ -19,6 +19,10 @@ function Article(props) {
       <div>
       <p>{props.articleSiblingContent}</p>
         <p>{props.articleActions}</p>
+        <h2>KeyWords:</h2>
+        <ul>
+          {props.keyWords}
+        </ul>
       </div>
 
     </div>

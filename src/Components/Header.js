@@ -15,10 +15,19 @@ function Header() {
     articleSiblingContent: ['article1'],
     keyWords: ["gaming", "meditation"],
     articleActions: ["Download Level 1: Shooting Fast by Breathing Slow"]
+  },
+  {
+    articleName: "article3",
+    articleAuthor: "Colby Colby",
+    articleDate: "January 17th, 2020",
+    articleContent: "Shocker",
+    articleSiblingContent: ['article1'],
+    keyWords: ["gaming", "meditation"],
+    articleActions: ["A Quick Breakdown of Neural Processing During Online FPS"]
   }
   ]
 
-  const dataMapped = data.map((x)=> <Article articleSiblingContent={x.articleSiblingContent} />)
+  const dataMapped = data.map((article)=> <Article {...article} />)
 
   return (
     <>

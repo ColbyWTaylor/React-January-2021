@@ -23,6 +23,7 @@ function Article(props) {
         <ul>
           {props.keyWords}
         </ul>
+
       </div>
 
     </div>

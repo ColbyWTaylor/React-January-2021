@@ -8,10 +8,10 @@ function Header() {
   let preferredLanguage = "JS"
 
   let data = [{
-    articleName: "article2",
+    articleName: "A Quick Breakdown of Neural Processing During Online FPS",
     articleAuthor: "Colby Again",
     articleDate: "January 16th, 2020",
-    articleContent: "Game smarter",
+    articleContent: "This isn't porn, yet. Game smarter, not harder",
     articleSiblingContent: ['article1'],
     keyWords: ["gaming", "meditation"],
     articleActions: ["Download Level 1: Shooting Fast by Breathing Slow"]
@@ -20,7 +20,7 @@ function Header() {
     articleName: "article3",
     articleAuthor: "Colby Colby",
     articleDate: "January 17th, 2020",
-    articleContent: "Shocker",
+    articleContent: <p>here is the content</p>,
     articleSiblingContent: ['article1'],
     keyWords: ["gaming", "meditation"],
     articleActions: ["A Quick Breakdown of Neural Processing During Online FPS"]

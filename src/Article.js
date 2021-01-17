@@ -15,7 +15,7 @@ function Article(props) {
       <div className="articleContent">
         {props.articleContent}
       </div>
-      <hr />
+      <hr className="w80" />
       <div>
       <p>{props.articleSiblingContent}</p>
         <p>{props.articleActions}</p>

@@ -35,32 +35,30 @@ function Article() {
 }
 ]
 
-const dataMapped = data.map((article,i)=> (
-  <div className="Article" key={i}>
-    <h1>{article.articleName}</h1>
-    <p><strong>{article.articleAuthor}</strong></p>
-    <p><i>{article.articleDate}</i></p>
-    <div className="articleContent">
-      {article.articleContent}
-    </div>
-    <hr className="w50" />
-    <div>
-    <p>{article.articleSiblingContent}</p>
-      <p>{article.articleActions}</p>
-      <h2>KeyWords:</h2>
-      <ul>
-        {console.log(article.keyWords)}
-      </ul>
-
-    </div>
-
-  </div>))
 
   // const [count, setCount] = useState(0);
   // const [firstName, setFirstName] = useState("");
   
-  return dataMapped
-
+  return (data.map((article,i) => (
+    <div className="Article" key={i}>
+      <h1>{article.articleName}</h1>
+      <p><strong>{article.articleAuthor}</strong></p>
+      <p><i>{article.articleDate}</i></p>
+      <div className="articleContent">
+        {article.articleContent}
+      </div>
+      <hr className="w50" />
+      <div>
+      <p>{article.articleSiblingContent}</p>
+        <p>{article.articleActions}</p>
+        <h2>KeyWords:</h2>
+        <ul>
+          {<li>{article.keyWords}</li>}
+        </ul>
+  
+      </div>
+  
+    </div>)))
 }
 
 

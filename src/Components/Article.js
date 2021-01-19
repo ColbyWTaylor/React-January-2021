@@ -21,7 +21,7 @@ function Article(props) {
         <p>{props.articleActions}</p>
         <h2>KeyWords:</h2>
         <ul>
-          {props.keyWords}
+          {console.log(props.keyWords)}
         </ul>
 
       </div>

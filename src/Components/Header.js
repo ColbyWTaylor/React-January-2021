@@ -10,13 +10,13 @@ function Header() {
 
   return (
     <>
-    <Nest />
     <div className="Header">
       <h1>CodeFlow.io</h1>
       <p>/*Remember to Breathe Here*/</p>
      { (preferredLanguage === "JS") && (<p>Language Preference: <i>JavaScript</i></p>)}
       <hr className="HeaderHr"/>
     </div>
+    <Nest />
     <HeaderButtons />
     <Article />
 
